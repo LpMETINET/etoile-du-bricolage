@@ -1,0 +1,92 @@
+/*
+    Bleu foncé du logo: #2290cb rgb(34, 144, 203)
+    Bleu clair du logo: #424242 rgb(65, 175, 226)
+    Blanc bleuté: #e3f2fd rgb(227, 242, 253)
+    Gris foncé logo: #424242 rgb(66, 66, 66)
+    Rose:  #e91e63  rgb(14, 145, 230)
+*/
+
+html {
+    background: rgb(227, 242, 253);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.small {
+        width: 18%;
+    }
+
+.medium {
+    width: 28%;
+}
+
+.large {
+    width: 48%;
+}
+
+.small, .medium, .large {
+    margin: 0;
+    padding: 1%;
+}
+
+/*************************/
+/********* HEADER ********/
+/*************************/
+    header {
+        background: #2290cb;
+        color: #e3f2fd;
+        font-size: 18px;
+        height: 80px;
+        position: fixed;
+        width: 100%;
+    }
+
+    header img {
+        float: left;
+        height: 60px;
+        margin: 10px;
+    }
+
+    header nav {
+        margin: 23px 0 0 0;
+        margin-left: calc(100% - 510px);
+        width: 500px;
+    }
+
+    nav ul {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 10px 30px 10px 0;
+    }
+
+    nav ul li:hover {
+        cursor:pointer;
+        text-decoration: underline;
+    }
+
+
+/****************************/
+/********* CONTENT **********/
+/****************************/
+    .content {
+        margin: 0;
+        padding:0px;
+    }
+
+    /****************************/
+    /********* LEFT-SIDE ********/
+    /****************************/
+
+        .block {
+            display: inline-block;
+        }
+
+        .block:first-child {
+            background: orange;
+        }
+
+        aside {
+            background: gray;
+        }
