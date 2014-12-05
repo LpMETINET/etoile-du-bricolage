@@ -27,6 +27,14 @@
         margin: 20px;
     }
 
+    a{
+        color:white;
+    }
+
+    a:visited{
+        text-decoration: none;
+    }
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -112,61 +120,8 @@
         padding:0;
     }
 
-    /****************************/
-    /********* LEFT-SIDE ********/
-    /****************************/
-
-        .block {
-            display: inline-block;
-        }
-
-        .partners{
-            text-align: center;
-            padding: 25px;
-        }
-        .partners h3{
-            text-transform: uppercase;
-            padding:10px;
-        }
-
-        .partner{
-            display: inline-block;
-            padding:2%;
-            width: 44%;
-        }
-        .partner:hover{
-            background: #2290cb;
-            color: white;
-            cursor: pointer;
-        }
-
-        .partner img{
-            width: 80%;
-        }
-        .partner p{
-            margin: 5px 5px -5px 5px;
-            padding: 5px;
-            text-align: center;
-        }
-
-
-
-    /****************************/
-    /********* MIDDLE    ********/
-    /****************************/
-        .middlePart{
-            margin-left: 28%;
-        }
-
-        p{
-            margin: 6px;
-            padding: 6px;
-            text-align: justify;
-        }
-    
-
     /*****************************/
-    /********* RIGHT-SIDE ********/
+    /********* LEFT-SIDE *********/
     /*****************************/
         
         aside {
@@ -174,6 +129,7 @@
             padding: 0;
             position: fixed;
             left: 20px;
+            min-height: 40px;
             text-align: center;
             top: 80px; 
             background-color: #222;
@@ -212,4 +168,54 @@
             margin: 6px;
             padding: 5px;
             width: 80%;
+        }
+
+    /****************************/
+    /********* MIDDLE    ********/
+    /****************************/
+        .middlePart{
+            margin-left: 28%;
+        }
+
+        p{
+            margin: 6px;
+            padding: 6px;
+            text-align: justify;
+        }
+
+    /****************************/
+    /********* RIGHT-SIDE *******/
+    /****************************/
+
+        .block {
+            display: inline-block;
+        }
+
+        .partners{
+            text-align: center;
+            padding: 25px;
+        }
+        .partners h3{
+            text-transform: uppercase;
+            padding:10px;
+        }
+
+        .partner{
+            display: inline-block;
+            padding:2%;
+            width: 44%;
+        }
+        .partner:hover{
+            background: #2290cb;
+            color: white;
+            cursor: pointer;
+        }
+
+        .partner img{
+            width: 80%;
+        }
+        .partner p{
+            margin: 5px 5px -5px 5px;
+            padding: 5px;
+            text-align: center;
         }
