@@ -7,50 +7,61 @@
     Rose:  #e91e63  rgb(14, 145, 230)
 */
 
-@font-face {
-    font-family: 'Sertig';
-    src: url('fonts/Sertig.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-html {
-    background: rgb(245, 245, 245);
-    font-family: 'Sertig', sans-serif;
-}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Propriétés générales ~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-h1, h2{
-    font-size: 32px;
-    margin: 20px;
-}
+    @font-face {
+        font-family: 'Sertig';
+        src: url('fonts/Sertig.otf');
+        font-weight: normal;
+        font-style: normal;
+    }
+    html {
+        background: rgb(235, 235, 235);
+        font-family: 'Sertig', sans-serif;
+    }
 
-.small {
-    width: 18%;
-}
+    h1, h2{
+        font-size: 32px;
+        margin: 20px;
+    }
 
-.medium {
-    width: 25%;
-}
 
-.large {
-    width: 52%;
-}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Classes CSS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.small, .medium, .large {
-    vertical-align: top;
-}
+    .small, .medium, .large {
+        vertical-align: top;
+    }
 
-.btn:hover{
-    background-color: #FFF;
-    color: #2290cb;
-    cursor: pointer;
-}
-.btn {
-    background-color: #2290cb;
-    border: none;
-    color: #FFF;
-    margin: 6px;
-    width: 85%;
-}
+    .small {
+        padding: 1%;
+        width: 17%;
+    }
+
+    .medium {
+        width: 25%;
+    }
+
+    .large {
+        width: 52%;
+    }
+
+    .btn:hover{
+        background-color: #FFF;
+        color: #2290cb;
+        cursor: pointer;
+    }
+
+    .btn {
+        background-color: #2290cb;
+        border: none;
+        color: #FFF;
+        margin: 6px;
+        width: 85%;
+    }
 
 /*************************/
 /********* HEADER ********/
@@ -109,15 +120,35 @@ h1, h2{
             display: inline-block;
         }
 
-        .parterns{
-
+        .partners{
+            text-align: center;
+            padding: 25px;
+        }
+        .partners h3{
+            text-transform: uppercase;
+            padding:10px;
         }
 
         .partner{
-            border: 1px solid black;
             display: inline-block;
-            width: 48%;
+            padding:2%;
+            width: 44%;
         }
+        .partner:hover{
+            background: #2290cb;
+            color: white;
+            cursor: pointer;
+        }
+
+        .partner img{
+            width: 80%;
+        }
+        .partner p{
+            margin: 5px 5px -5px 5px;
+            padding: 5px;
+            text-align: center;
+        }
+
 
 
     /****************************/
