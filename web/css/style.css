@@ -1,18 +1,22 @@
 /*
     Bleu foncé du logo: #2290cb rgb(34, 144, 203)
-    Bleu clair du logo: #424242 rgb(65, 175, 226) changer HEXA il est gris
-    Blanc bleuté: #e3f2fd rgb(227, 242, 253)
+    Bleu clair du logo:  rgb(65, 175, 226) changer HEXA il est gris
+    Blanc cassé: rgb(245, 245, 245)
     Gris foncé logo: #424242 rgb(66, 66, 66)
     Rose:  #e91e63  rgb(14, 145, 230)
 */
 
 html {
-    background: rgb(227, 242, 253);
+    background: rgb(245, 245, 245);
     font-family: 'Open Sans', sans-serif;
 }
 
+h1{
+    margin: 20px;
+}
+
 .small {
-    width: 18%;
+    width: 20%;
 }
 
 .medium {
@@ -20,13 +24,33 @@ html {
 }
 
 .large {
-    width: 48%;
+    width: 58%;
 }
 
 .small, .medium, .large {
-    border: 1px solid black;
+    
     /*margin: 0;
     padding: 1%;*/
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Courier New;
+  color: #41afe2;
+  font-size: 18px;
+  background: #FF;
+  padding: 5px 10px;
+  text-decoration: none;
+  width:100px;
+}
+
+.btn:hover {
+    background: rgb(66,66,66);
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /*************************/
@@ -36,19 +60,21 @@ html {
         background: #2290cb;
         color: #e3f2fd;
         font-size: 18px;
-        height: 80px;
+        height: 60px;
         position: fixed;
+        top:0px;
         width: 100%;
     }
 
     header img {
         float: left;
-        height: 60px;
-        margin: 10px;
+        height: 56px;
+        margin: 2px;
     }
 
     header nav {
-        margin: 23px 0 0 0;
+        font-size: 14px;
+        margin: 15px 0 0 0;
         margin-left: calc(100% - 510px);
         width: 510px;
     }
@@ -72,7 +98,7 @@ html {
 /********* CONTENT **********/
 /****************************/
     .content {
-        margin: 0;
+        margin: 80px 0 0 0;
         padding:0;
     }
 
@@ -112,23 +138,28 @@ html {
     /*****************************/
         
         aside {
-            border: 1px solid black;
             padding: 0;
             position: fixed;
-            top: 80px;
             right: 0;
+            text-align: center;
+            top: 60px; 
         }
 
         .phone-number{
-            background-color: #000;
+            background-color: rgb(66, 66, 66);
             color: #FFF;
-            font-size: 20px;
-            height: 40px;
+            font-size: 16px;
+            padding: 10px;
             text-align: center;
         }
 
         .cost-estimate{
             background-color: rgb(65, 175, 226);
-            height: 250px;
             padding: 5%;
+        }
+
+        input, textarea{
+            width: 92%;
+            margin:2% 4%;
+            padding:5px;
         }
