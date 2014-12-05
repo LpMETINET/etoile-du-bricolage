@@ -6,7 +6,7 @@
         <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="web/css/normalize.css" type="text/css" />
         <link rel="stylesheet" href="web/css/style.css" type="text/css" />
-        <link rel="stylesheet" href="web/css/responsive.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (max-width: 650px)" href="web/css/responsive.css" type="text/css" />
         <title>L'étoile du bricolage</title>
     </head>
 
@@ -18,10 +18,10 @@
             </span>
             <nav>
                 <ul>
-                    <li>Accueil</li>
+                    <a href="#">  <li> Accueil </li> </a>
                     <li>Partenaires</li>
                     <li>Fiches conseils</li>
-                    <li>Devis</li>
+                    <a href="pages/devis.html"> <li>  Devis </li> </a>
                 </ul>
             </nav>
         </header>
@@ -91,9 +91,14 @@
 
                     <button class="btn"> Suite > </button>
                 </article>
-                <a>
-                    <img />
-                </a>
+
+                <article class="partners">
+                    <h3>Site sponsorisé par</h3>
+                    <a href="http://www.leroymerlin.fr/" target="blank">
+                        <img src="web/images/pub.jpg" title="Visiter le site de Leroy Merlin"/>
+                    </a>
+                </article>
+               
             </section>
 
         </div>

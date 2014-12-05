@@ -1,10 +1,8 @@
 /*
     Bleu foncé du logo: #2290cb rgb(34, 144, 203)
-    Bleu clair du logo:  rgb(65, 175, 226) changer HEXA il est gris
-    Bordures bleues : #1C4C62;
+    Bleu clair du logo:  rgb(65, 175, 226)
     Blanc cassé: rgb(245, 245, 245)
     Gris foncé logo: #424242 rgb(66, 66, 66)
-    Rose:  #e91e63  rgb(14, 145, 230)
 */
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -15,25 +13,27 @@
         font-family: 'Sertig';
         src: url('fonts/Sertig.otf');
         font-weight: normal;
-        font-style: normal;
-    }
+        font-style: normal;}
+
     html {
         background: rgb(235, 235, 235);
-        font-family: 'Sertig', sans-serif;
-    }
+        font-family: 'Sertig', sans-serif;}
 
     h1, h2{
         font-size: 32px;
-        margin: 20px;
-    }
+        margin: 20px;}
 
     a{
         color:white;
-    }
+        text-decoration: none;}
 
     a:visited{
-        text-decoration: none;
-    }
+        text-decoration: none;}
+
+    p{
+        margin: 6px;
+        padding: 6px;
+        text-align: justify;}
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,39 +41,34 @@
     Classes CSS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
     .small, .medium, .large {
-        vertical-align: top;
-    }
+        vertical-align: top;}
 
     .small {
         padding: 1%;
-        width: 17%;
-    }
+        width: 17%;}
 
     .medium {
-        width: 25%;
-    }
+        width: 25%;}
 
     .large {
-        width: 52%;
-    }
+        width: 52%;}
 
     .btn:hover{
         background-color: #FFF;
         color: #2290cb;
-        cursor: pointer;
-    }
+        cursor: pointer;}
 
     .btn {
         background-color: #2290cb;
         border: none;
         color: #FFF;
         margin: 6px;
-        width: 85%;
-    }
+        width: 85%;}
 
-/*************************/
-/********* HEADER ********/
-/*************************/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Header      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
     header {
         background: #222;
         border-bottom: 1px solid rgb(60,60,60);
@@ -81,48 +76,44 @@
         height: 60px;
         position: fixed;
         top:0px;
-        width: 100%;
-    }
+        width: 100%;}
 
     header img {
         float: left;
         height: 56px;
-        margin: 2px;
-    }
+        margin: 2px;}
 
     header nav {
         font-size: 18px;
         margin: 15px 0 0 0;
         margin-left: calc(100% - 510px);
-        width: 510px;
-    }
+        margin-left: -webkit-calc(100% - 510px);
+        margin-left: -moz-calc(100% - 510px);
+        width: 510px;}
 
     nav ul {
-        padding: 10px;
-    }
+        padding: 10px;}
 
     nav ul li {
         display: inline;
-        margin: 10px 30px 10px 0;
-    }
+        margin: 10px 30px 10px 0;}
 
     nav ul li:hover {
         cursor:pointer;
-        text-decoration: underline;
-    }
+        text-decoration: underline;}
 
 
-/****************************/
-/********* CONTENT **********/
-/****************************/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Content     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
     .content {
         margin: 80px 0 0 0;
-        padding:0;
-    }
+        padding:0;}
 
-    /*****************************/
-    /********* LEFT-SIDE *********/
-    /*****************************/
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Left side  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
         
         aside {
             font-family: 'Raleway', sans-serif;
@@ -133,30 +124,26 @@
             text-align: center;
             top: 80px; 
             background-color: #222;
-            color: #FFF;
-        }
+            color: #FFF;}
+
         aside h2{
             clear: both;
             font-size: 1.4rem;
             margin-bottom: 2rem;
-            text-transform: uppercase;
-        }
+            text-transform: uppercase;}
 
         .phone-number{
             font-size: 16px;
             margin-bottom: -20px;
             padding: 8px;
-            text-align: center;
-        }
+            text-align: center;}
+
         .phone-number img{
             height:20px;
-            margin: 0 2px -2px 2px;
-        }
+            margin: 0 2px -2px 2px;}
 
         .cost-estimate{
-            /*background-color: rgb(65, 175, 226);*/
-            padding: 5%;
-        }
+            padding: 5%;}
 
         input, textarea{
             background-color: #FFF;
@@ -167,55 +154,47 @@
             font-weight: 300;
             margin: 6px;
             padding: 5px;
-            width: 80%;
-        }
+            width: 80%;}
 
-    /****************************/
-    /********* MIDDLE    ********/
-    /****************************/
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Middle        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
         .middlePart{
-            margin-left: 28%;
-        }
+            margin-left: 28%;}
 
-        p{
-            margin: 6px;
-            padding: 6px;
-            text-align: justify;
-        }
-
-    /****************************/
-    /********* RIGHT-SIDE *******/
-    /****************************/
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Right side     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
         .block {
-            display: inline-block;
-        }
+            display: inline-block;}
 
         .partners{
             text-align: center;
-            padding: 25px;
-        }
+            padding: 25px;}
+
+        .partners a img{
+            width:70%;}
+
         .partners h3{
             text-transform: uppercase;
-            padding:10px;
-        }
+            padding:10px;}
 
         .partner{
             display: inline-block;
             padding:2%;
-            width: 44%;
-        }
+            width: 44%;}
+
         .partner:hover{
             background: #2290cb;
             color: white;
-            cursor: pointer;
-        }
+            cursor: pointer;}
 
         .partner img{
-            width: 80%;
-        }
+            width: 80%;}
+
         .partner p{
             margin: 5px 5px -5px 5px;
             padding: 5px;
-            text-align: center;
-        }
+            text-align: center;}

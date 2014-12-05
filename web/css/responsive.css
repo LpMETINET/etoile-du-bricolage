@@ -1,18 +1,45 @@
-@media (max-width:650px){
-	header{
-		
-	}
 
+/* HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	header{
+		position: static;
+		height: auto;
+		margin-top: -15px; }
+
+	header img{
+		display: block;
+		float: none;
+		height: auto;
+		margin: 15px 35%;
+		width: 30%;}
+
+	header nav{
+		height: 100px;
+		margin: 0;
+		padding: 0;
+		width: 100%;}
+	
+	header nav ul{
+		background: #222;
+		text-align: center;}
+
+	header nav li{
+		display: inline-block;
+		margin: 0px;
+		padding: 25px 4%;
+		width: 41%;}
+
+	header nav li:hover{
+		background: rgb(65, 175, 226);
+		color: white;}
+
+/* Left part ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 	aside{
 		display: block;
-		position: static;
-	}
+		position: static;}
 
+
+/* Css classes ~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 	.small, .medium, .big, .middlePart{
 		display: block;
 		margin: 0px;
-		width: 100%;
-	} 
-
-	
-}
+		width: 100%;} 
