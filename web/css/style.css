@@ -1,6 +1,6 @@
 /*
     Bleu foncé du logo: #2290cb rgb(34, 144, 203)
-    Bleu clair du logo: #424242 rgb(65, 175, 226)
+    Bleu clair du logo: #424242 rgb(65, 175, 226) changer HEXA il est gris
     Blanc bleuté: #e3f2fd rgb(227, 242, 253)
     Gris foncé logo: #424242 rgb(66, 66, 66)
     Rose:  #e91e63  rgb(14, 145, 230)
@@ -12,8 +12,8 @@ html {
 }
 
 .small {
-        width: 18%;
-    }
+    width: 18%;
+}
 
 .medium {
     width: 28%;
@@ -24,8 +24,9 @@ html {
 }
 
 .small, .medium, .large {
-    margin: 0;
-    padding: 1%;
+    border: 1px solid black;
+    /*margin: 0;
+    padding: 1%;*/
 }
 
 /*************************/
@@ -49,7 +50,7 @@ html {
     header nav {
         margin: 23px 0 0 0;
         margin-left: calc(100% - 510px);
-        width: 500px;
+        width: 510px;
     }
 
     nav ul {
@@ -72,7 +73,7 @@ html {
 /****************************/
     .content {
         margin: 0;
-        padding:0px;
+        padding:0;
     }
 
     /****************************/
@@ -87,6 +88,47 @@ html {
             background: orange;
         }
 
+        .parterns{
+
+        }
+
+        .partner{
+            border: 1px solid black;
+            display: inline-block;
+            width: 48%;
+        }
+
+
+    /****************************/
+    /********* MIDDLE    ********/
+    /****************************/
+        p{
+            text-align: justify;
+        }
+    
+
+    /*****************************/
+    /********* RIGHT-SIDE ********/
+    /*****************************/
+        
         aside {
-            background: gray;
+            border: 1px solid black;
+            padding: 0;
+            position: fixed;
+            top: 80px;
+            right: 0;
+        }
+
+        .phone-number{
+            background-color: #000;
+            color: #FFF;
+            font-size: 20px;
+            height: 40px;
+            text-align: center;
+        }
+
+        .cost-estimate{
+            background-color: rgb(65, 175, 226);
+            height: 250px;
+            padding: 5%;
         }
